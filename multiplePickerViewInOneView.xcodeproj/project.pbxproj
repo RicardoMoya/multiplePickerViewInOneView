@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798444B516A9AEFF00CDE59B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798444B416A9AEFF00CDE59B /* UIKit.framework */; };
+		798444B716A9AEFF00CDE59B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798444B616A9AEFF00CDE59B /* Foundation.framework */; };
+		798444B916A9AEFF00CDE59B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798444B816A9AEFF00CDE59B /* CoreGraphics.framework */; };
+		798444BF16A9AF0000CDE59B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798444BD16A9AF0000CDE59B /* InfoPlist.strings */; };
+		798444C116A9AF0000CDE59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 798444C016A9AF0000CDE59B /* main.m */; };
+		798444C516A9AF0000CDE59B /* JarrobaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 798444C416A9AF0000CDE59B /* JarrobaAppDelegate.m */; };
+		798444C716A9AF0000CDE59B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 798444C616A9AF0000CDE59B /* Default.png */; };
+		798444C916A9AF0000CDE59B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 798444C816A9AF0000CDE59B /* Default@2x.png */; };
+		798444CB16A9AF0000CDE59B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 798444CA16A9AF0000CDE59B /* Default-568h@2x.png */; };
+		798444CE16A9AF0000CDE59B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798444CC16A9AF0000CDE59B /* MainStoryboard.storyboard */; };
+		798444D116A9AF0000CDE59B /* JarrobaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798444D016A9AF0000CDE59B /* JarrobaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		798444B016A9AEFF00CDE59B /* multiplePickerViewInOneView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiplePickerViewInOneView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		798444B416A9AEFF00CDE59B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		798444B616A9AEFF00CDE59B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		798444B816A9AEFF00CDE59B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		798444BC16A9AF0000CDE59B /* multiplePickerViewInOneView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multiplePickerViewInOneView-Info.plist"; sourceTree = "<group>"; };
+		798444BE16A9AF0000CDE59B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		798444C016A9AF0000CDE59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		798444C216A9AF0000CDE59B /* multiplePickerViewInOneView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "multiplePickerViewInOneView-Prefix.pch"; sourceTree = "<group>"; };
+		798444C316A9AF0000CDE59B /* JarrobaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JarrobaAppDelegate.h; sourceTree = "<group>"; };
+		798444C416A9AF0000CDE59B /* JarrobaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JarrobaAppDelegate.m; sourceTree = "<group>"; };
+		798444C616A9AF0000CDE59B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		798444C816A9AF0000CDE59B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		798444CA16A9AF0000CDE59B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		798444CD16A9AF0000CDE59B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		798444CF16A9AF0000CDE59B /* JarrobaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JarrobaViewController.h; sourceTree = "<group>"; };
+		798444D016A9AF0000CDE59B /* JarrobaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JarrobaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		798444AD16A9AEFF00CDE59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798444B516A9AEFF00CDE59B /* UIKit.framework in Frameworks */,
+				798444B716A9AEFF00CDE59B /* Foundation.framework in Frameworks */,
+				798444B916A9AEFF00CDE59B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798444A516A9AEFF00CDE59B = {
+			isa = PBXGroup;
+			children = (
+				798444BA16A9AEFF00CDE59B /* multiplePickerViewInOneView */,
+				798444B316A9AEFF00CDE59B /* Frameworks */,
+				798444B116A9AEFF00CDE59B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798444B116A9AEFF00CDE59B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798444B016A9AEFF00CDE59B /* multiplePickerViewInOneView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798444B316A9AEFF00CDE59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798444B416A9AEFF00CDE59B /* UIKit.framework */,
+				798444B616A9AEFF00CDE59B /* Foundation.framework */,
+				798444B816A9AEFF00CDE59B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		798444BA16A9AEFF00CDE59B /* multiplePickerViewInOneView */ = {
+			isa = PBXGroup;
+			children = (
+				798444CC16A9AF0000CDE59B /* MainStoryboard.storyboard */,
+				798444CF16A9AF0000CDE59B /* JarrobaViewController.h */,
+				798444D016A9AF0000CDE59B /* JarrobaViewController.m */,
+				798444BB16A9AF0000CDE59B /* Supporting Files */,
+			);
+			path = multiplePickerViewInOneView;
+			sourceTree = "<group>";
+		};
+		798444BB16A9AF0000CDE59B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				798444C316A9AF0000CDE59B /* JarrobaAppDelegate.h */,
+				798444C416A9AF0000CDE59B /* JarrobaAppDelegate.m */,
+				798444BC16A9AF0000CDE59B /* multiplePickerViewInOneView-Info.plist */,
+				798444BD16A9AF0000CDE59B /* InfoPlist.strings */,
+				798444C016A9AF0000CDE59B /* main.m */,
+				798444C216A9AF0000CDE59B /* multiplePickerViewInOneView-Prefix.pch */,
+				798444C616A9AF0000CDE59B /* Default.png */,
+				798444C816A9AF0000CDE59B /* Default@2x.png */,
+				798444CA16A9AF0000CDE59B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		798444AF16A9AEFF00CDE59B /* multiplePickerViewInOneView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798444D416A9AF0000CDE59B /* Build configuration list for PBXNativeTarget "multiplePickerViewInOneView" */;
+			buildPhases = (
+				798444AC16A9AEFF00CDE59B /* Sources */,
+				798444AD16A9AEFF00CDE59B /* Frameworks */,
+				798444AE16A9AEFF00CDE59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multiplePickerViewInOneView;
+			productName = multiplePickerViewInOneView;
+			productReference = 798444B016A9AEFF00CDE59B /* multiplePickerViewInOneView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		798444A716A9AEFF00CDE59B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jarroba;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ricardo Moya Garcia";
+			};
+			buildConfigurationList = 798444AA16A9AEFF00CDE59B /* Build configuration list for PBXProject "multiplePickerViewInOneView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 798444A516A9AEFF00CDE59B;
+			productRefGroup = 798444B116A9AEFF00CDE59B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798444AF16A9AEFF00CDE59B /* multiplePickerViewInOneView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		798444AE16A9AEFF00CDE59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798444BF16A9AF0000CDE59B /* InfoPlist.strings in Resources */,
+				798444C716A9AF0000CDE59B /* Default.png in Resources */,
+				798444C916A9AF0000CDE59B /* Default@2x.png in Resources */,
+				798444CB16A9AF0000CDE59B /* Default-568h@2x.png in Resources */,
+				798444CE16A9AF0000CDE59B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		798444AC16A9AEFF00CDE59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798444C116A9AF0000CDE59B /* main.m in Sources */,
+				798444C516A9AF0000CDE59B /* JarrobaAppDelegate.m in Sources */,
+				798444D116A9AF0000CDE59B /* JarrobaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		798444BD16A9AF0000CDE59B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798444BE16A9AF0000CDE59B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		798444CC16A9AF0000CDE59B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798444CD16A9AF0000CDE59B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		798444D216A9AF0000CDE59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		798444D316A9AF0000CDE59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		798444D516A9AF0000CDE59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multiplePickerViewInOneView/multiplePickerViewInOneView-Prefix.pch";
+				INFOPLIST_FILE = "multiplePickerViewInOneView/multiplePickerViewInOneView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		798444D616A9AF0000CDE59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multiplePickerViewInOneView/multiplePickerViewInOneView-Prefix.pch";
+				INFOPLIST_FILE = "multiplePickerViewInOneView/multiplePickerViewInOneView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		798444AA16A9AEFF00CDE59B /* Build configuration list for PBXProject "multiplePickerViewInOneView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798444D216A9AF0000CDE59B /* Debug */,
+				798444D316A9AF0000CDE59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798444D416A9AF0000CDE59B /* Build configuration list for PBXNativeTarget "multiplePickerViewInOneView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798444D516A9AF0000CDE59B /* Debug */,
+				798444D616A9AF0000CDE59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 798444A716A9AEFF00CDE59B /* Project object */;
+}
